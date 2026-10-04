@@ -47,7 +47,7 @@ function SidebarContent({ showLogo = true }: { showLogo?: boolean }) {
       </nav>
       <div className="mt-auto flex flex-col gap-[14px] border-t border-line px-[12px] pt-[20px]">
         <Link to="/" className="text-[15px] text-primary/70 hover:text-primary">
-          {'< '}Back to website
+          Website
         </Link>
         <div className="flex items-center justify-between">
           <span className="font-JetBrainsMono text-[12px] text-primary/40 uppercase">{networkLabel}</span>
