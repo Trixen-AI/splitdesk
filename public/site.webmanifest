@@ -1,0 +1,15 @@
+{
+  "name": "Splitdesk",
+  "short_name": "Splitdesk",
+  "description": "Launch a pump.fun coin and split its creator fees across X accounts, paid out in USD.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#EDF0E8",
+  "theme_color": "#EDF0E8",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}

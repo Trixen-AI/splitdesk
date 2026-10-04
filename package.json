@@ -1,0 +1,54 @@
+{
+  "name": "splitdesk",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "oxlint",
+    "preview": "vite preview",
+    "build:logo": "node scripts/build-logo.mjs",
+    "build:og": "node scripts/build-og.mjs"
+  },
+  "dependencies": {
+    "@fontsource/jetbrains-mono": "^5.3.0",
+    "@fontsource/mozilla-text": "^5.3.0",
+    "@pump-fun/pump-sdk": "^2.0.0",
+    "@reown/appkit": "^1.8.24",
+    "@reown/appkit-adapter-solana": "^1.8.24",
+    "@solana/spl-token": "^0.4.15",
+    "@solana/web3.js": "^1.99.0",
+    "aos": "^2.3.4",
+    "bn.js": "^5.2.5",
+    "bs58": "^6.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.30.6",
+    "swr": "^2.5.1"
+  },
+  "devDependencies": {
+    "@resvg/resvg-js": "^2.6.2",
+    "@types/aos": "^3.0.8",
+    "@types/bn.js": "^5.2.0",
+    "@types/node": "^24.13.3",
+    "@types/react": "^18.3.31",
+    "@types/react-dom": "^18.3.7",
+    "@vitejs/plugin-react": "^6.1.1",
+    "autoprefixer": "^10.6.1",
+    "opentype.js": "^2.0.0",
+    "oxlint": "^1.81.0",
+    "postcss": "^8.5.28",
+    "tailwindcss": "^3.4.19",
+    "typescript": "~6.0.2",
+    "vite": "^8.3.0",
+    "vite-plugin-node-polyfills": "^0.28.0"
+  },
+  "overrides": {
+    "@types/react": "$@types/react",
+    "@types/react-dom": "$@types/react-dom"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
